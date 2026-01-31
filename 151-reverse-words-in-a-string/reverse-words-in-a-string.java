@@ -3,11 +3,9 @@ class Solution {
       String reverse = "";
       int start = 0;
       int last = 0;
-    //   s = s.trim();
     s = " " + s;
-
-        int n = s.length();
-      int i =n-1;
+ 
+      int i =s.length()-1;
       while(i>=0){
         if(s.charAt(i) == ' '){
         i--;
